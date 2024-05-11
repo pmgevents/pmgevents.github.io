@@ -1,0 +1,45 @@
+/* .background {
+
+    background: url(./assets/imgs/orth-logo.png) no-repeat center;
+
+    height: 100vh;
+
+    width: 100vw;
+
+}
+
+.blur {
+
+    filter: blur(5px);
+
+}
+
+.heading {
+
+    text-align: center;
+    filter: blur(0);
+
+} */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/imgs/orth-logo.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.text-container {
+    text-align: center;
+    /* margin-top: 250px; */
+}
